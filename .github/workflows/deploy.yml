@@ -24,5 +24,5 @@ jobs:
 
       - name: Deploy to WP Engine
         run: |
-          git remote add wpengine git@git.wpengine.com:kopkha.git
+          git remote add wpengine git@git.wpengine.com:thapde.git
           git push wpengine main --force
